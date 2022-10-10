@@ -20,6 +20,7 @@ public class DiaryUserServiceImpl implements  DiaryUserService{
 
     @Autowired
     public DiaryUserServiceImpl( DiaryRepository diaryRepository){
+
         this.diaryRepository = diaryRepository;
     }
 
